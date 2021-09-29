@@ -1,0 +1,144 @@
+---
+title: "Getting ahead of the curve"
+subtitle: "Data management plans"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+output:
+  ioslides_presentation:
+    css: css/ioslides.css
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Agenda
+
+- Introductions
+- What is a data management plan?
+- When do I need one?
+- How do I create one?
+- Beyond checking the box...
+
+# Introductions
+
+## Invited experts
+
+- Rocco Zinoble, College of the Liberal Arts
+- Briana Wham, Penn State Libraries
+
+# What is a data management plan?
+
+## A plan and a promise
+
+> *...Thus, if an application describes a data-sharing plan, NIH expects that plan to be enacted. If progress has been made with the data-sharing plan, then the grantee should note this in the progress report. In the final progress report, if not sooner, the grantee should note what steps have been taken with respect to the data-sharing plan.* 
+
+https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm
+
+---
+
+> *In the case of noncompliance (depending on its severity and duration) NIH can take various actions to protect the Federal Government's interests. In some instances, for example, NIH may make data sharing an explicit term and condition of subsequent awards.*
+
+https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm
+
+## Plan components
+
+- What
+- Where
+- How
+- Who
+
+## Examples
+
+- Play \& Learning Across a Year ([PLAY](https://www.play-project.org/)) Project ([R01HD094830](https://reporter.nih.gov/search/y_CtF--A5Eq5siGqtwbLiQ/project-details/9500957)). [Resource Sharing and Data Sharing Plan](pdf/PLAY-resource-sharing-data-mgmt.pdf).
+- EAGER: Expanding public access to restricted research data ([NSF 2032713](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2032713&HistoricalAwards=false)). [Data Management Plan](pdf/nsf-eager-data-management.pdf).
+
+# When do I need one?
+
+## DMPs at NSF
+
+- Required now
+- 1-2 pp document
+- https://www.nsf.gov/bfa/dias/policy/dmp.jsp
+- https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_2.jsp#IIC2j
+
+## Current [NIH policy](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html)
+
+> *Starting with the October 1, 2003 receipt date, investigators submitting an NIH 
+application seeking $500,000 or more in direct costs in any single year 
+are expected to include a plan for data sharing or state why data 
+sharing is not possible.*
+
+## New NIH policy
+
+- Effective January 25, 2023
+- [Announcement](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
+
+---
+
+> *The final DMS Policy does not create a uniform requirement to share all scientific data. Unlike a requirement for submission of Plans, which can be implemented across various funding mechanisms and types of research with little variation, appropriate data sharing is likely to be varied and contextual. Through the requirement to submit a Plan, researchers are prospectively planning for data sharing, which we anticipate will increasingly lead researchers to integrate data sharing into the routine conduct of research.* 
+
+---
+
+> *Accordingly, we have included in the final DMS Policy an expectation that researchers will maximize appropriate data sharing when developing Plans. The final DMS Policy retains the Draft Policy’s factors (i.e., ethical, legal, or technical) that may necessitate variations in the extent of scientific data preservation and sharing, and researchers should convey such factors in their Plans.* 
+
+---
+
+>   *We believe this will provide the necessary flexibility for researchers to accommodate the substantial variety in research fields, projects, and data types that this expectation will encompass.*
+
+## Resources
+
+- [NIH Data Sharing Policy and Implementation Guidance](https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm)
+- National Academy of Sciences and Engineering, "[Changing the Culture of Data Management and Sharing: A Workshop](https://www.nationalacademies.org/our-work/changing-the-culture-of-data-management-and-sharing-a-workshop)", in March 2021
+
+## [Elements](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-014.html)
+
+- 1-2 pp
+- Data type(s)
+- Related Tools, Software and/or Code
+- Standards
+- Data Preservation, Access, and Associated Timelines
+- Access, Distribution, or Reuse Considerations
+- Oversight of Data Management and Sharing
+
+# How do I create one?
+
+## [DMPTool.org](https://dmptool.org)
+
+- [Data Management Toolkit](https://guides.libraries.psu.edu/dmptoolkit)
+
+# Beyond checking the box...
+
+## Ethical considerations
+
+- Protecting participants AND acclerating discovery
+- Data and materials sharing benefits science
+- Most data can be shared in some form, with appropriate protections and restrictions
+    - If you plan ahead for it
+- [Brakewood & Poldrack, 2013](https://doi.org/10.1016/j.neuroimage.2013.02.040); Gilmore, Xu, & Adolph, 2021; [Gilmore, Cole et al., 2020](https://doi.org/10.1111/cdep.12360).
+
+## Where to share
+
+- Institutional repositories
+    - [PSU ScholarSphere](https://scholarsphere.psu.edu/)
+- Data repositories/archives/enclaves
+    - [Databrary](https://databrary.org)
+    - [ICSPR](https://www.icpsr.umich.edu/web/pages/)
+    - [Open Science Framework (OSF)](https://osf.io)
+    - [Dataverse](https://dataverse.org)
+    - [NIH Data Archive](https://nda.nih.gov)
+
+## Plan your work, work your plan
+
+- Embedding sharing and quality assurance (QA) into ongoing workflows
+- Make sharing with collaborators ~ sharing with others
+- [Soska et al., 2021](https://doi.org/10.7191/jeslib.2021.1208)
+
+# Your thoughts?
+
+# Addenda
+
+
