@@ -3,6 +3,8 @@ title: "Getting ahead of the curve"
 subtitle: "Data management plans"
 author: "Rick Gilmore"
 date: "`r Sys.time()`"
+bibliography: bib/dmp.bib
+csl: bib/apa.csl
 output:
   ioslides_presentation:
     css: css/ioslides.css
@@ -36,13 +38,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 > *...Thus, if an application describes a data-sharing plan, NIH expects that plan to be enacted. If progress has been made with the data-sharing plan, then the grantee should note this in the progress report. In the final progress report, if not sooner, the grantee should note what steps have been taken with respect to the data-sharing plan.* 
 
-https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm
+[[@noauthor_undated-lt]](https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm)
 
 ---
 
 > *In the case of noncompliance (depending on its severity and duration) NIH can take various actions to protect the Federal Government's interests. In some instances, for example, NIH may make data sharing an explicit term and condition of subsequent awards.*
 
-https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm
+[[@noauthor_undated-lt]](https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm)
 
 ## Plan components
 
@@ -62,8 +64,8 @@ https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm
 
 - Required now
 - 1-2 pp document
-- https://www.nsf.gov/bfa/dias/policy/dmp.jsp
-- https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_2.jsp#IIC2j
+- [[@noauthor_undated-ro]](https://www.nsf.gov/bfa/dias/policy/dmp.jsp)
+- [[@noauthor_undated-zl]](https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_2.jsp#IIC2jj)
 
 ## Current [NIH policy](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html)
 
@@ -75,7 +77,7 @@ sharing is not possible.*
 ## New NIH policy
 
 - Effective January 25, 2023
-- [Announcement](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
+- [[@noauthor_undated-xy]](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
 
 ---
 
@@ -110,15 +112,44 @@ sharing is not possible.*
 
 - [Data Management Toolkit](https://guides.libraries.psu.edu/dmptoolkit)
 
+# FAQs
+
+## What is/is not data?
+
+> *The recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings, regardless of whether the data are used to support scholarly publications.* 
+
+> *Scientific data do not include laboratory notebooks, preliminary analyses, completed case report forms, drafts of scientific papers, plans for future research, peer reviews, communications with colleagues, or physical objects, such as laboratory specimens.*
+
+## When to consider?
+
+> *We encourage investigators to consider, while developing their Plans, how to address data management and sharing in the informed consent process, such that prospective participants will understand what is expected to happen with their data*
+
+> *“[s]hared scientific data should be made accessible as soon as possible, and no later than the time of an associated publication, or the end of the award/support period, whichever comes first.”*
+
+## Where to share?
+
+> *The final DMS Policy strongly encourages the use of established repositories to the extent possible. This reflects NIH’s preference that scientific data be shared and preserved through repositories, rather than kept only by the researcher or institution and provided on request, with the recognition that this is not always a practical or even a preferred approach.*
+
+## How to pay for?
+
+> *Personnel costs required to perform the types of data management and sharing activities described in the final Supplemental Information are allowable. Regarding the availability of data beyond the end of the project, which is crucial to achieving the goals of the DMS Policy, the final Supplemental Information clarifies that fees for long-term data preservation and sharing are allowable, but funds for these activities must be spent during the performance period, even for scientific data and metadata preserved and shared beyond the award period. NIH funds cannot legally be spent after the award period.*
+
 # Beyond checking the box...
 
-## Ethical considerations
+## Motivation
 
-- Protecting participants AND acclerating discovery
+> *Sharing scientific data accelerates biomedical research discovery, in part, by enabling validation of research results, providing accessibility to high-value datasets, and promoting data reuse for future research studies.*
+
+<https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html>
+
+## Ethical & practical considerations
+
+- Protecting participants AND accelerating discovery
 - Data and materials sharing benefits science
 - Most data can be shared in some form, with appropriate protections and restrictions
     - If you plan ahead for it
-- [Brakewood & Poldrack, 2013](https://doi.org/10.1016/j.neuroimage.2013.02.040); Gilmore, Xu, & Adolph, 2021; [Gilmore, Cole et al., 2020](https://doi.org/10.1111/cdep.12360).
+    
+- [[@Brakewood2013-wj]](https://doi.org/10.1016/j.neuroimage.2013.02.040); [[@Cychosz2020-st]](https://doi.org/10.3758/s13428-020-01365-9); Gilmore, Xu, & Adolph, 2021; [[@Gilmore2020-sl]](https://doi.org/10.1111/cdep.12360);  [[@Gilmore2021-zr]](https://doi.org/10.1002/icd.2254); [[@Gollwitzer2020-dw]](https://doi.org/10.31234/osf.io/24ncs);  [[@Meyer2018-dp]](https://doi.org/10.1177/2515245917747656)
 
 ## Where to share
 
@@ -135,10 +166,39 @@ sharing is not possible.*
 
 - Embedding sharing and quality assurance (QA) into ongoing workflows
 - Make sharing with collaborators ~ sharing with others
-- [Soska et al., 2021](https://doi.org/10.7191/jeslib.2021.1208)
+- [[@Soska2021-mh]](https://doi.org/10.7191/jeslib.2021.1208)
 
 # Your thoughts?
 
-# Addenda
+# Materials
 
+## Code
 
+This talk was produced on `r Sys.Date()` in [RStudio](https://rstudio.com) using R Markdown.
+The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/2021-10-21-odds-data-mgmt>.
+
+---
+
+Information about the R Session that produced the code is as follows:
+
+```{r session-info}
+sessionInfo()
+```
+
+---
+
+## References {.smaller}
+
+<!-- Scrolling final reference page -->
+<!-- http://stackoverflow.com/q/38260799 -->
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):before {
+  background: none;
+  }
+slides > slide:not(.nobackground):after {
+  content: '';
+  background: none;
+  }
+}
+</style>

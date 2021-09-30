@@ -93,7 +93,70 @@ slide:not(.current) .plotly.html-widget{
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-            
+            pre > code.sourceCode { white-space: pre; position: relative; }
+            pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+            pre > code.sourceCode > span:empty { height: 1.2em; }
+            .sourceCode { overflow: visible; }
+            code.sourceCode > span { color: inherit; text-decoration: inherit; }
+            div.sourceCode { margin: 1em 0; }
+            pre.sourceCode { margin: 0; }
+            @media screen {
+            div.sourceCode { overflow: auto; }
+            }
+            @media print {
+            pre > code.sourceCode { white-space: pre-wrap; }
+            pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+            }
+            pre.numberSource code
+              { counter-reset: source-line 0; }
+            pre.numberSource code > span
+              { position: relative; left: -4em; counter-increment: source-line; }
+            pre.numberSource code > span > a:first-child::before
+              { content: counter(source-line);
+                position: relative; left: -1em; text-align: right; vertical-align: baseline;
+                border: none; display: inline-block;
+                -webkit-touch-callout: none; -webkit-user-select: none;
+                -khtml-user-select: none; -moz-user-select: none;
+                -ms-user-select: none; user-select: none;
+                padding: 0 4px; width: 4em;
+                color: #aaaaaa;
+              }
+            pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+            div.sourceCode
+              {   }
+            @media screen {
+            pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+            }
+            code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+            code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+            code span.at { color: #7d9029; } /* Attribute */
+            code span.bn { color: #40a070; } /* BaseN */
+            code span.bu { } /* BuiltIn */
+            code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+            code span.ch { color: #4070a0; } /* Char */
+            code span.cn { color: #880000; } /* Constant */
+            code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+            code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+            code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+            code span.dt { color: #902000; } /* DataType */
+            code span.dv { color: #40a070; } /* DecVal */
+            code span.er { color: #ff0000; font-weight: bold; } /* Error */
+            code span.ex { } /* Extension */
+            code span.fl { color: #40a070; } /* Float */
+            code span.fu { color: #06287e; } /* Function */
+            code span.im { } /* Import */
+            code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+            code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+            code span.op { color: #666666; } /* Operator */
+            code span.ot { color: #007020; } /* Other */
+            code span.pp { color: #bc7a00; } /* Preprocessor */
+            code span.sc { color: #4070a0; } /* SpecialChar */
+            code span.ss { color: #bb6688; } /* SpecialString */
+            code span.st { color: #4070a0; } /* String */
+            code span.va { color: #19177c; } /* Variable */
+            code span.vs { color: #4070a0; } /* VerbatimString */
+            code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+        
   </style>
 
   <link rel="stylesheet" href="data:text/css,h2%20%7B%0Afont%2Dsize%3A%2050px%3B%0A%7D%0Ah3%20%7B%0Afont%2Dsize%3A%2044px%3B%0A%7D%0Ap%2C%20li%2C%20td%20%7B%0Afont%2Dsize%3A%2038px%3B%0A%7D" type="text/css" />
@@ -110,7 +173,7 @@ slide:not(.current) .plotly.html-widget{
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">2021-09-29 07:48:45</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2021-09-30 06:22:10</p>
           </hgroup>
   </slide>
 
@@ -141,7 +204,9 @@ slide:not(.current) .plotly.html-widget{
 <p><em>…Thus, if an application describes a data-sharing plan, NIH expects that plan to be enacted. If progress has been made with the data-sharing plan, then the grantee should note this in the progress report. In the final progress report, if not sooner, the grantee should note what steps have been taken with respect to the data-sharing plan.</em></p>
 </blockquote>
 
-<p><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm</a></p>
+<p><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''><span class="cite">(<span>
+“<span>
+NIH</span> data sharing policy and implementation guidance,”</span> n.d.)</span></a></p>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
 
@@ -149,7 +214,9 @@ slide:not(.current) .plotly.html-widget{
 <p><em>In the case of noncompliance (depending on its severity and duration) NIH can take various actions to protect the Federal Government’s interests. In some instances, for example, NIH may make data sharing an explicit term and condition of subsequent awards.</em></p>
 </blockquote>
 
-<p><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm</a></p>
+<p><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''><span class="cite">(<span>
+“<span>
+NIH</span> data sharing policy and implementation guidance,”</span> n.d.)</span></a></p>
 
 </article></slide><slide class=""><hgroup><h2>Plan components</h2></hgroup><article  id="plan-components">
 
@@ -174,8 +241,13 @@ slide:not(.current) .plotly.html-widget{
 <ul>
 <li>Required now</li>
 <li>1-2 pp document</li>
-<li><a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''>https://www.nsf.gov/bfa/dias/policy/dmp.jsp</a></li>
-<li><a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_2.jsp#IIC2j' title=''>https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_2.jsp#IIC2j</a></li>
+<li><a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''><span class="cite">(<span>
+“Dissemination and sharing of research results,”</span> n.d.)</span></a></li>
+<li><a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_2.jsp#IIC2jj' title=''><span class="cite">(<span>
+“<span>
+NSF</span> <span>
+PAPPG</span> chapter <span>
+XI</span>,”</span> n.d.)</span></a></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Current <a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html' title=''>NIH policy</a></h2></hgroup><article  id="current-nih-policy">
@@ -188,7 +260,9 @@ slide:not(.current) .plotly.html-widget{
 
 <ul>
 <li>Effective January 25, 2023</li>
-<li><a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''>Announcement</a></li>
+<li><a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''><span class="cite">(<span>
+“<span>
+NOT-OD-21-013</span>,”</span> n.d.)</span></a></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
@@ -213,7 +287,7 @@ slide:not(.current) .plotly.html-widget{
 
 <ul>
 <li><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>NIH Data Sharing Policy and Implementation Guidance</a></li>
-<li>National Academy of Sciences and Engineering, &ldquo;<a href='https://www.nationalacademies.org/our-work/changing-the-culture-of-data-management-and-sharing-a-workshop' title=''>Changing the Culture of Data Management and Sharing: A Workshop</a>&rdquo;, in March 2021</li>
+<li>National Academy of Sciences and Engineering, &ldquo;<a href='https://www.nationalacademies.org/our-work/changing-the-culture-of-data-management-and-sharing-a-workshop' title=''>Changing the Culture of Data Management and Sharing: A Workshop</a>,&rdquo; in March 2021</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2><a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-014.html' title=''>Elements</a></h2></hgroup><article  id="elements">
@@ -236,22 +310,64 @@ slide:not(.current) .plotly.html-widget{
 <li><a href='https://guides.libraries.psu.edu/dmptoolkit' title=''>Data Management Toolkit</a></li>
 </ul>
 
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>FAQs</h2></hgroup><article  id="faqs">
+
+</article></slide><slide class=""><hgroup><h2>What is/is not data?</h2></hgroup><article  id="what-isis-not-data">
+
+<blockquote>
+<p><em>The recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings, regardless of whether the data are used to support scholarly publications.</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>Scientific data do not include laboratory notebooks, preliminary analyses, completed case report forms, drafts of scientific papers, plans for future research, peer reviews, communications with colleagues, or physical objects, such as laboratory specimens.</em></p>
+</blockquote>
+
+</article></slide><slide class=""><hgroup><h2>When to consider?</h2></hgroup><article  id="when-to-consider">
+
+<blockquote>
+<p><em>We encourage investigators to consider, while developing their Plans, how to address data management and sharing in the informed consent process, such that prospective participants will understand what is expected to happen with their data</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>&ldquo;[s]hared scientific data should be made accessible as soon as possible, and no later than the time of an associated publication, or the end of the award/support period, whichever comes first.&rdquo;</em></p>
+</blockquote>
+
+</article></slide><slide class=""><hgroup><h2>Where to share?</h2></hgroup><article  id="where-to-share">
+
+<blockquote>
+<p><em>The final DMS Policy strongly encourages the use of established repositories to the extent possible. This reflects NIH’s preference that scientific data be shared and preserved through repositories, rather than kept only by the researcher or institution and provided on request, with the recognition that this is not always a practical or even a preferred approach.</em></p>
+</blockquote>
+
+</article></slide><slide class=""><hgroup><h2>How to pay for?</h2></hgroup><article  id="how-to-pay-for">
+
+<blockquote>
+<p><em>Personnel costs required to perform the types of data management and sharing activities described in the final Supplemental Information are allowable. Regarding the availability of data beyond the end of the project, which is crucial to achieving the goals of the DMS Policy, the final Supplemental Information clarifies that fees for long-term data preservation and sharing are allowable, but funds for these activities must be spent during the performance period, even for scientific data and metadata preserved and shared beyond the award period. NIH funds cannot legally be spent after the award period.</em></p>
+</blockquote>
+
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Beyond checking the box…</h2></hgroup><article  id="beyond-checking-the-box">
 
-</article></slide><slide class=""><hgroup><h2>Ethical considerations</h2></hgroup><article  id="ethical-considerations">
+</article></slide><slide class=""><hgroup><h2>Motivation</h2></hgroup><article  id="motivation">
+
+<blockquote>
+<p><em>Sharing scientific data accelerates biomedical research discovery, in part, by enabling validation of research results, providing accessibility to high-value datasets, and promoting data reuse for future research studies.</em></p>
+</blockquote>
+
+<p><a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''>https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a></p>
+
+</article></slide><slide class=""><hgroup><h2>Ethical &amp; practical considerations</h2></hgroup><article  id="ethical-practical-considerations">
 
 <ul>
-<li>Protecting participants AND acclerating discovery</li>
+<li>Protecting participants AND accelerating discovery</li>
 <li>Data and materials sharing benefits science</li>
 <li>Most data can be shared in some form, with appropriate protections and restrictions
 
 <ul>
 <li>If you plan ahead for it</li>
 </ul></li>
-<li><a href='https://doi.org/10.1016/j.neuroimage.2013.02.040' title=''>Brakewood &amp; Poldrack, 2013</a>; Gilmore, Xu, &amp; Adolph (2021); <a href='https://doi.org/10.1111/cdep.12360' title=''>Gilmore, Cole et al., 2020</a>.</li>
+<li><a href='https://doi.org/10.1016/j.neuroimage.2013.02.040' title=''><span class="cite">(Brakewood &amp; Poldrack, 2013)</span></a>; <a href='https://doi.org/10.3758/s13428-020-01365-9' title=''><span class="cite">(Cychosz et al., 2020)</span></a>; Gilmore, Xu, &amp; Adolph, 2021; <a href='https://doi.org/10.1111/cdep.12360' title=''><span class="cite">(Gilmore, Cole, Verma, Aken, &amp; Worthman, 2020)</span></a>; <a href='https://doi.org/10.1002/icd.2254' title=''><span class="cite">(Gilmore &amp; Qian, 2021)</span></a>; <a href='https://doi.org/10.31234/osf.io/24ncs' title=''><span class="cite">(Gollwitzer et al., 2020)</span></a>; <a href='https://doi.org/10.1177/2515245917747656' title=''><span class="cite">(Meyer, 2018)</span></a></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Where to share</h2></hgroup><article  id="where-to-share">
+</article></slide><slide class=""><hgroup><h2>Where to share</h2></hgroup><article  id="where-to-share-1">
 
 <ul>
 <li>Institutional repositories
@@ -275,12 +391,108 @@ slide:not(.current) .plotly.html-widget{
 <ul>
 <li>Embedding sharing and quality assurance (QA) into ongoing workflows</li>
 <li>Make sharing with collaborators ~ sharing with others</li>
-<li><a href='https://doi.org/10.7191/jeslib.2021.1208' title=''>Soska et al., 2021</a></li>
+<li><a href='https://doi.org/10.7191/jeslib.2021.1208' title=''><span class="cite">(Soska et al., 2021)</span></a></li>
 </ul>
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Your thoughts?</h2></hgroup><article  id="your-thoughts">
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Addenda</h2></hgroup><article  id="addenda"></article></slide>
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Materials</h2></hgroup><article  id="materials">
+
+</article></slide><slide class=""><hgroup><h2>Code</h2></hgroup><article  id="code">
+
+<p>This talk was produced on 2021-09-30 in <a href='https://rstudio.com' title=''>RStudio</a> using R Markdown. The code and materials used to generate the slides may be found at <a href='https://github.com/psu-psychology/2021-10-21-odds-data-mgmt' title=''>https://github.com/psu-psychology/2021-10-21-odds-data-mgmt</a>.</p>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<p>Information about the R Session that produced the code is as follows:</p>
+
+<pre class = 'prettyprint lang-r'>sessionInfo()</pre>
+
+<pre >## R version 4.1.0 (2021-05-18)
+## Platform: x86_64-apple-darwin17.0 (64-bit)
+## Running under: macOS Big Sur 11.6
+## 
+## Matrix products: default
+## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
+## 
+## locale:
+## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets 
+## [6] methods   base     
+## 
+## loaded via a namespace (and not attached):
+##  [1] digest_0.6.27     R6_2.5.0         
+##  [3] jsonlite_1.7.2    magrittr_2.0.1   
+##  [5] evaluate_0.14     rlang_0.4.11     
+##  [7] stringi_1.7.3     jquerylib_0.1.4  
+##  [9] bslib_0.2.5.1     rmarkdown_2.9    
+## [11] tools_4.1.0       stringr_1.4.0    
+## [13] xfun_0.24         yaml_2.2.1       
+## [15] compiler_4.1.0    htmltools_0.5.1.1
+## [17] knitr_1.33        sass_0.4.0</pre>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  class="smaller" id="references">
+
+<!-- Scrolling final reference page -->
+
+<!-- http://stackoverflow.com/q/38260799 -->
+
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):before {
+  background: none;
+  }
+slides > slide:not(.nobackground):after {
+  content: '';
+  background: none;
+  }
+}
+</style>
+
+<div line-spacing="2" id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry" id="ref-Brakewood2013-wj">
+<p>Brakewood, B., &amp; Poldrack, R. A. (2013). The ethics of secondary data analysis: Considering the application of belmont principles to the sharing of neuroimaging data. <em>NeuroImage</em>, <em>82</em>, 671–676. <a href='https://doi.org/10.1016/j.neuroimage.2013.02.040' title=''>https://doi.org/10.1016/j.neuroimage.2013.02.040</a></p></div>
+
+<div class="csl-entry" id="ref-Cychosz2020-st">
+<p>Cychosz, M., Romeo, R., Soderstrom, M., Scaff, C., Ganek, H., Cristia, A., … Weisleder, A. (2020). Longform recordings of everyday life: Ethics for best practices. <em>Behavior Research Methods</em>. <a href='https://doi.org/10.3758/s13428-020-01365-9' title=''>https://doi.org/10.3758/s13428-020-01365-9</a></p></div>
+
+<div class="csl-entry" id="ref-noauthor_undated-ro">
+<p>Dissemination and sharing of research results. (n.d.). <a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''>https://www.nsf.gov/bfa/dias/policy/dmp.jsp</a>. Retrieved from <a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''>https://www.nsf.gov/bfa/dias/policy/dmp.jsp</a></p></div>
+
+<div class="csl-entry" id="ref-Gilmore2020-sl">
+<p>Gilmore, R. O., Cole, P. M., Verma, S., Aken, M. A. G., &amp; Worthman, C. M. (2020). Advancing scientific integrity, transparency, and openness in child development research: Challenges and possible solutions. <em>Child Development Perspectives</em>, <em>14</em>(1), 9–14. <a href='https://doi.org/10.1111/cdep.12360' title=''>https://doi.org/10.1111/cdep.12360</a></p></div>
+
+<div class="csl-entry" id="ref-Gilmore2021-zr">
+<p>Gilmore, R. O., &amp; Qian, Y. (2021). An open developmental science will be more rigorous, robust, and impactful. <em>Infant and Child Development</em>. <a href='https://doi.org/10.1002/icd.2254' title=''>https://doi.org/10.1002/icd.2254</a></p></div>
+
+<div class="csl-entry" id="ref-Gollwitzer2020-dw">
+<p>Gollwitzer, M., Abele-Brehm, A., Fiebach, C., Ramthun, R., Scheel, A. M., Schönbrodt, F. D., &amp; Steinberg, U. (2020, September). <em>Data management and data sharing in psychological science: Revision of the <span>
+DGPs</span> recommendations</em>. <a href='https://doi.org/10.31234/osf.io/24ncs' title=''>https://doi.org/10.31234/osf.io/24ncs</a></p></div>
+
+<div class="csl-entry" id="ref-Meyer2018-dp">
+<p>Meyer, M. N. (2018). Practical tips for ethical data sharing. <em>Advances in Methods and Practices in Psychological Science</em>, <em>1</em>(1), 131–144. <a href='https://doi.org/10.1177/2515245917747656' title=''>https://doi.org/10.1177/2515245917747656</a></p></div>
+
+<div class="csl-entry" id="ref-noauthor_undated-lt">
+<p><span>
+NIH</span> data sharing policy and implementation guidance. (n.d.). <a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm</a>. Retrieved from <a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm</a></p></div>
+
+<div class="csl-entry" id="ref-noauthor_undated-xy">
+<p><span>
+NOT-OD-21-013</span>: Final <span>
+NIH</span> policy for data management and sharing. (n.d.). <a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''>https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>. Retrieved from <a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''>https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a></p></div>
+
+<div class="csl-entry" id="ref-noauthor_undated-zl">
+<p><span>
+NSF</span> <span>
+PAPPG</span> chapter <span>
+XI</span>. (n.d.). <a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp' title=''>https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp</a>. Retrieved from <a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp' title=''>https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp</a></p></div>
+
+<div class="csl-entry" id="ref-Soska2021-mh">
+<p>Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., &amp; Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. <em>Journal of Escience Librarianship</em>, <em>10</em>(3). <a href='https://doi.org/10.7191/jeslib.2021.1208' title=''>https://doi.org/10.7191/jeslib.2021.1208</a></p></div></div></article></slide>
 
 
   <slide class="backdrop"></slide>
