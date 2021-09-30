@@ -20,17 +20,18 @@
       // Slide settings
       settings: {
                 title: 'Getting ahead of the curve',
-                        subtitle: 'Data management plans',
+                        subtitle: 'Responding to emerging data management plan requirements',
                 useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
         enableTouch: true,
-                      },
+                        favIcon: 'img/psu-logo.jpeg',
+              },
 
       // Author information
       presenters: [
             {
-        name:  'Rick Gilmore' ,
+        name:  'Rick Gilmore, Brianna Wham, &amp; Rocco Zinoble' ,
         company: '',
         gplus: '',
         twitter: '',
@@ -157,6 +158,21 @@ slide:not(.current) .plotly.html-widget{
             code span.vs { color: #4070a0; } /* VerbatimString */
             code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
         
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: url(img/psu-logo.jpeg) no-repeat 0 50%;
+      -webkit-background-size: 30px 30px;
+      -moz-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9;
+    }
   </style>
 
   <link rel="stylesheet" href="data:text/css,h2%20%7B%0Afont%2Dsize%3A%2050px%3B%0A%7D%0Ah3%20%7B%0Afont%2Dsize%3A%2044px%3B%0A%7D%0Ap%2C%20li%2C%20td%20%7B%0Afont%2Dsize%3A%2038px%3B%0A%7D" type="text/css" />
@@ -168,12 +184,13 @@ slide:not(.current) .plotly.html-widget{
 <slides class="layout-widescreen">
 
   <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4QksaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiLz4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSJ3Ij8+/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAkQCRAwEhAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1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"></aside>
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
     <hgroup class="auto-fadein">
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">2021-09-30 06:22:10</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2021-09-30 07:43:25</p>
           </hgroup>
   </slide>
 
@@ -185,9 +202,8 @@ slide:not(.current) .plotly.html-widget{
 <li>When do I need one?</li>
 <li>How do I create one?</li>
 <li>Beyond checking the box…</li>
+<li>Discussion</li>
 </ul>
-
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Introductions</h2></hgroup><article  id="introductions">
 
 </article></slide><slide class=""><hgroup><h2>Invited experts</h2></hgroup><article  id="invited-experts">
 
@@ -204,9 +220,7 @@ slide:not(.current) .plotly.html-widget{
 <p><em>…Thus, if an application describes a data-sharing plan, NIH expects that plan to be enacted. If progress has been made with the data-sharing plan, then the grantee should note this in the progress report. In the final progress report, if not sooner, the grantee should note what steps have been taken with respect to the data-sharing plan.</em></p>
 </blockquote>
 
-<p><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''><span class="cite">(<span>
-“<span>
-NIH</span> data sharing policy and implementation guidance,”</span> n.d.)</span></a></p>
+<p><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''><span class="cite">(NIH, n.d.)</span></a></p>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
 
@@ -214,9 +228,7 @@ NIH</span> data sharing policy and implementation guidance,”</span> n.d.)</spa
 <p><em>In the case of noncompliance (depending on its severity and duration) NIH can take various actions to protect the Federal Government’s interests. In some instances, for example, NIH may make data sharing an explicit term and condition of subsequent awards.</em></p>
 </blockquote>
 
-<p><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''><span class="cite">(<span>
-“<span>
-NIH</span> data sharing policy and implementation guidance,”</span> n.d.)</span></a></p>
+<p><a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''><span class="cite">(NIH, n.d.)</span></a></p>
 
 </article></slide><slide class=""><hgroup><h2>Plan components</h2></hgroup><article  id="plan-components">
 
@@ -241,13 +253,8 @@ NIH</span> data sharing policy and implementation guidance,”</span> n.d.)</spa
 <ul>
 <li>Required now</li>
 <li>1-2 pp document</li>
-<li><a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''><span class="cite">(<span>
-“Dissemination and sharing of research results,”</span> n.d.)</span></a></li>
-<li><a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_2.jsp#IIC2jj' title=''><span class="cite">(<span>
-“<span>
-NSF</span> <span>
-PAPPG</span> chapter <span>
-XI</span>,”</span> n.d.)</span></a></li>
+<li><a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''><span class="cite">(NSF, n.d.-a)</span></a></li>
+<li><a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_2.jsp#IIC2jj' title=''><span class="cite">(NSF, n.d.-b)</span></a></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Current <a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html' title=''>NIH policy</a></h2></hgroup><article  id="current-nih-policy">
@@ -260,9 +267,7 @@ XI</span>,”</span> n.d.)</span></a></li>
 
 <ul>
 <li>Effective January 25, 2023</li>
-<li><a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''><span class="cite">(<span>
-“<span>
-NOT-OD-21-013</span>,”</span> n.d.)</span></a></li>
+<li><a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''><span class="cite">(NIH, 2021)</span></a></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
@@ -341,7 +346,13 @@ NOT-OD-21-013</span>,”</span> n.d.)</span></a></li>
 </article></slide><slide class=""><hgroup><h2>How to pay for?</h2></hgroup><article  id="how-to-pay-for">
 
 <blockquote>
-<p><em>Personnel costs required to perform the types of data management and sharing activities described in the final Supplemental Information are allowable. Regarding the availability of data beyond the end of the project, which is crucial to achieving the goals of the DMS Policy, the final Supplemental Information clarifies that fees for long-term data preservation and sharing are allowable, but funds for these activities must be spent during the performance period, even for scientific data and metadata preserved and shared beyond the award period. NIH funds cannot legally be spent after the award period.</em></p>
+<p><em>Personnel costs required to perform the types of data management and sharing activities described in the final Supplemental Information are allowable. Regarding the availability of data beyond the end of the project, which is crucial to achieving the goals of the DMS Policy, the final Supplemental Information clarifies that fees for long-term data preservation and sharing are allowable…</em></p>
+</blockquote>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<blockquote>
+<p><em>but funds for these activities must be spent during the performance period, even for scientific data and metadata preserved and shared beyond the award period. NIH funds cannot legally be spent after the award period.</em></p>
 </blockquote>
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Beyond checking the box…</h2></hgroup><article  id="beyond-checking-the-box">
@@ -400,7 +411,7 @@ NOT-OD-21-013</span>,”</span> n.d.)</span></a></li>
 
 </article></slide><slide class=""><hgroup><h2>Code</h2></hgroup><article  id="code">
 
-<p>This talk was produced on 2021-09-30 in <a href='https://rstudio.com' title=''>RStudio</a> using R Markdown. The code and materials used to generate the slides may be found at <a href='https://github.com/psu-psychology/2021-10-21-odds-data-mgmt' title=''>https://github.com/psu-psychology/2021-10-21-odds-data-mgmt</a>.</p>
+<p>This talk was produced on 2021-09-30 in <a href='https://rstudio.com' title=''>RStudio</a> using R Markdown. The code and materials used to generate the slides may be found at <a href='https://github.com/psu-psychology/2021-10-01-odds-data-mgmt' title=''>https://github.com/psu-psychology/2021-10-01-odds-data-mgmt</a>.</p>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
 
@@ -419,23 +430,20 @@ NOT-OD-21-013</span>,”</span> n.d.)</span></a></li>
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 ## 
 ## attached base packages:
-## [1] stats     graphics  grDevices utils     datasets 
-## [6] methods   base     
+## [1] stats     graphics  grDevices utils     datasets  methods  
+## [7] base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] digest_0.6.27     R6_2.5.0         
-##  [3] jsonlite_1.7.2    magrittr_2.0.1   
-##  [5] evaluate_0.14     rlang_0.4.11     
-##  [7] stringi_1.7.3     jquerylib_0.1.4  
-##  [9] bslib_0.2.5.1     rmarkdown_2.9    
-## [11] tools_4.1.0       stringr_1.4.0    
-## [13] xfun_0.24         yaml_2.2.1       
-## [15] compiler_4.1.0    htmltools_0.5.1.1
-## [17] knitr_1.33        sass_0.4.0</pre>
+##  [1] digest_0.6.27     R6_2.5.0          jsonlite_1.7.2   
+##  [4] magrittr_2.0.1    evaluate_0.14     rlang_0.4.11     
+##  [7] stringi_1.7.3     jquerylib_0.1.4   bslib_0.2.5.1    
+## [10] rmarkdown_2.9     tools_4.1.0       stringr_1.4.0    
+## [13] xfun_0.24         yaml_2.2.1        compiler_4.1.0   
+## [16] htmltools_0.5.1.1 knitr_1.33        sass_0.4.0</pre>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
 
-</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  class="smaller" id="references">
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  id="references" class="smaller">
 
 <!-- Scrolling final reference page -->
 
@@ -453,45 +461,46 @@ slides > slide:not(.nobackground):after {
 }
 </style>
 
-<div line-spacing="2" id="refs" class="references csl-bib-body hanging-indent">
-<div class="csl-entry" id="ref-Brakewood2013-wj">
+<div class="references csl-bib-body hanging-indent" id="refs" line-spacing="2">
+<div id="ref-Brakewood2013-wj" class="csl-entry">
 <p>Brakewood, B., &amp; Poldrack, R. A. (2013). The ethics of secondary data analysis: Considering the application of belmont principles to the sharing of neuroimaging data. <em>NeuroImage</em>, <em>82</em>, 671–676. <a href='https://doi.org/10.1016/j.neuroimage.2013.02.040' title=''>https://doi.org/10.1016/j.neuroimage.2013.02.040</a></p></div>
 
-<div class="csl-entry" id="ref-Cychosz2020-st">
+<div id="ref-Cychosz2020-st" class="csl-entry">
 <p>Cychosz, M., Romeo, R., Soderstrom, M., Scaff, C., Ganek, H., Cristia, A., … Weisleder, A. (2020). Longform recordings of everyday life: Ethics for best practices. <em>Behavior Research Methods</em>. <a href='https://doi.org/10.3758/s13428-020-01365-9' title=''>https://doi.org/10.3758/s13428-020-01365-9</a></p></div>
 
-<div class="csl-entry" id="ref-noauthor_undated-ro">
-<p>Dissemination and sharing of research results. (n.d.). <a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''>https://www.nsf.gov/bfa/dias/policy/dmp.jsp</a>. Retrieved from <a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''>https://www.nsf.gov/bfa/dias/policy/dmp.jsp</a></p></div>
-
-<div class="csl-entry" id="ref-Gilmore2020-sl">
+<div id="ref-Gilmore2020-sl" class="csl-entry">
 <p>Gilmore, R. O., Cole, P. M., Verma, S., Aken, M. A. G., &amp; Worthman, C. M. (2020). Advancing scientific integrity, transparency, and openness in child development research: Challenges and possible solutions. <em>Child Development Perspectives</em>, <em>14</em>(1), 9–14. <a href='https://doi.org/10.1111/cdep.12360' title=''>https://doi.org/10.1111/cdep.12360</a></p></div>
 
-<div class="csl-entry" id="ref-Gilmore2021-zr">
+<div id="ref-Gilmore2021-zr" class="csl-entry">
 <p>Gilmore, R. O., &amp; Qian, Y. (2021). An open developmental science will be more rigorous, robust, and impactful. <em>Infant and Child Development</em>. <a href='https://doi.org/10.1002/icd.2254' title=''>https://doi.org/10.1002/icd.2254</a></p></div>
 
-<div class="csl-entry" id="ref-Gollwitzer2020-dw">
+<div id="ref-Gollwitzer2020-dw" class="csl-entry">
 <p>Gollwitzer, M., Abele-Brehm, A., Fiebach, C., Ramthun, R., Scheel, A. M., Schönbrodt, F. D., &amp; Steinberg, U. (2020, September). <em>Data management and data sharing in psychological science: Revision of the <span>
 DGPs</span> recommendations</em>. <a href='https://doi.org/10.31234/osf.io/24ncs' title=''>https://doi.org/10.31234/osf.io/24ncs</a></p></div>
 
-<div class="csl-entry" id="ref-Meyer2018-dp">
+<div id="ref-Meyer2018-dp" class="csl-entry">
 <p>Meyer, M. N. (2018). Practical tips for ethical data sharing. <em>Advances in Methods and Practices in Psychological Science</em>, <em>1</em>(1), 131–144. <a href='https://doi.org/10.1177/2515245917747656' title=''>https://doi.org/10.1177/2515245917747656</a></p></div>
 
-<div class="csl-entry" id="ref-noauthor_undated-lt">
-<p><span>
-NIH</span> data sharing policy and implementation guidance. (n.d.). <a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm</a>. Retrieved from <a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm</a></p></div>
+<div id="ref-noauthor_undated-lt" class="csl-entry">
+<p>NIH. (n.d.). <span>
+NIH</span> data sharing policy and implementation guidance. <a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm</a>. Retrieved from <a href='https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm' title=''>https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm</a></p></div>
 
-<div class="csl-entry" id="ref-noauthor_undated-xy">
-<p><span>
+<div id="ref-noauthor_undated-xy" class="csl-entry">
+<p>NIH. (2021). <span>
 NOT-OD-21-013</span>: Final <span>
-NIH</span> policy for data management and sharing. (n.d.). <a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''>https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>. Retrieved from <a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''>https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a></p></div>
+NIH</span> policy for data management and sharing. <a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''>https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>. Retrieved from <a href='https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html' title=''>https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a></p></div>
 
-<div class="csl-entry" id="ref-noauthor_undated-zl">
-<p><span>
+<div id="ref-noauthor_undated-ro" class="csl-entry">
+<p>NSF. (n.d.-a). <span>
+NSF</span> dissemination and sharing of research results. <a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''>https://www.nsf.gov/bfa/dias/policy/dmp.jsp</a>. Retrieved from <a href='https://www.nsf.gov/bfa/dias/policy/dmp.jsp' title=''>https://www.nsf.gov/bfa/dias/policy/dmp.jsp</a></p></div>
+
+<div id="ref-noauthor_undated-zl" class="csl-entry">
+<p>NSF. (n.d.-b). <span>
 NSF</span> <span>
 PAPPG</span> chapter <span>
-XI</span>. (n.d.). <a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp' title=''>https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp</a>. Retrieved from <a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp' title=''>https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp</a></p></div>
+XI</span>. <a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp' title=''>https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp</a>. Retrieved from <a href='https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp' title=''>https://www.nsf.gov/pubs/policydocs/pappg20_1/pappg_11.jsp</a></p></div>
 
-<div class="csl-entry" id="ref-Soska2021-mh">
+<div id="ref-Soska2021-mh" class="csl-entry">
 <p>Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., &amp; Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. <em>Journal of Escience Librarianship</em>, <em>10</em>(3). <a href='https://doi.org/10.7191/jeslib.2021.1208' title=''>https://doi.org/10.7191/jeslib.2021.1208</a></p></div></div></article></slide>
 
 

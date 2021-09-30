@@ -1,7 +1,7 @@
 ---
 title: "Getting ahead of the curve"
-subtitle: "Data management plans"
-author: "Rick Gilmore"
+subtitle: "Responding to emerging data management plan requirements"
+author: "Rick Gilmore, Brianna Wham, & Rocco Zinoble"
 date: "`r Sys.time()`"
 bibliography: bib/dmp.bib
 csl: bib/apa.csl
@@ -11,6 +11,7 @@ output:
     widescreen: true
     incremental: false
     transition: default
+    logo: img/psu-logo.jpeg
 ---
 
 ```{r setup, include=FALSE}
@@ -24,8 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - When do I need one?
 - How do I create one?
 - Beyond checking the box...
-
-# Introductions
+- Discussion
 
 ## Invited experts
 
@@ -132,7 +132,12 @@ sharing is not possible.*
 
 ## How to pay for?
 
-> *Personnel costs required to perform the types of data management and sharing activities described in the final Supplemental Information are allowable. Regarding the availability of data beyond the end of the project, which is crucial to achieving the goals of the DMS Policy, the final Supplemental Information clarifies that fees for long-term data preservation and sharing are allowable, but funds for these activities must be spent during the performance period, even for scientific data and metadata preserved and shared beyond the award period. NIH funds cannot legally be spent after the award period.*
+> *Personnel costs required to perform the types of data management and sharing activities described in the final Supplemental Information are allowable. Regarding the availability of data beyond the end of the project, which is crucial to achieving the goals of the DMS Policy, the final Supplemental Information clarifies that fees for long-term data preservation and sharing are allowable...*
+
+
+---
+
+> *but funds for these activities must be spent during the performance period, even for scientific data and metadata preserved and shared beyond the award period. NIH funds cannot legally be spent after the award period.*
 
 # Beyond checking the box...
 
@@ -175,7 +180,7 @@ sharing is not possible.*
 ## Code
 
 This talk was produced on `r Sys.Date()` in [RStudio](https://rstudio.com) using R Markdown.
-The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/2021-10-21-odds-data-mgmt>.
+The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/2021-10-01-odds-data-mgmt>.
 
 ---
 
