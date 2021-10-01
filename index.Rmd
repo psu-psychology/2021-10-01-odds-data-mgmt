@@ -1,7 +1,7 @@
 ---
 title: "Getting ahead of the curve"
 subtitle: "Responding to emerging data management plan requirements"
-author: "Rick Gilmore, Brianna Wham, & Rocco Zinoble"
+author: "Rick Gilmore, Briana Wham, & Rocco Zinoble"
 date: "`r Sys.time()`"
 bibliography: bib/dmp.bib
 csl: bib/apa.csl
